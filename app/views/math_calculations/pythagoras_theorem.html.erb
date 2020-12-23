@@ -1,0 +1,13 @@
+<div class="math_pythagoras">
+<h1>PYTHAGORAS</h1>
+<p>Select the correct answer!</p>
+<p>√(<%= @first %>^2 + <%= @second %>^2) =</p>
+<br>
+<%= button_to @result, check_correct_path, method: :post %>
+<br>
+<%= button_to @resultFake1, check_incorrect_path, method: :post %>
+<br>
+<%= button_to @resultFake2, check_incorrect_path, method: :post %>
+<br>
+<%= button_to @resultFake3, check_incorrect_path, method: :post %>
+</div>
